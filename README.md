@@ -41,14 +41,19 @@ The core of the project is a predictive engine that provides a "Fair Value Estim
 ## 📂 Project Structure
 
 The repository is organized to separate development, data, and deployment assets, following professional data science project standards.
+
 real_estate_engine/
 │
 ├── app.py # The main Streamlit application script
 ├── requirements.txt # A list of all necessary Python packages
+├── LICENSE # Project license file (if you added it)
 │
 ├── mumbai_price_model_optimized.joblib # The final, trained model file
 ├── geocoded_mumbai_data.csv # The clean data used by the app
 ├── training_columns.joblib # The "blueprint" of columns for the model
+│
+├── assets/ # Optional: Folder for images & GIFs for the README
+│ └── app_demo.gif
 │
 ├── data/ # Folder for RAW, unprocessed data
 │ └── Mumbai.csv
