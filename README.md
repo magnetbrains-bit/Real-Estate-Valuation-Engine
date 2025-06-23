@@ -37,30 +37,25 @@ The core of the project is a predictive engine that provides a "Fair Value Estim
 - **Jupyter Notebook (via Google Colab):** For initial data exploration, cleaning, model training, and experimentation.
 - **VS Code:** As the primary code editor for building the final Streamlit application.
 - **Git & GitHub:** For version control and project hosting.
-
+      
 ## 📂 Project Structure
 
 The repository is organized to separate development, data, and deployment assets, following professional data science project standards.
-##
+```
 real_estate_engine/
 │
-├── app.py # The main Streamlit application script
-├── requirements.txt # A list of all necessary Python packages
-├── LICENSE # Project license file
+├──🐍app.py                      # The main Streamlit application script
+├── requirements.txt            # A list of all necessary Python packages
+├── mumbai_price_model_optimized.joblib  # The final, trained model file
+├── geocoded_mumbai_data.csv      # The clean data used by the app
+├── training_columns.joblib     # The "blueprint" of columns for the model
 │
-├── mumbai_price_model_optimized.joblib # The final, trained model file
-├── geocoded_mumbai_data.csv # The clean data used by the app
-├── training_columns.joblib # The "blueprint" of columns for the model
+├──📁data/                       # Folder for RAW, unprocessed data
+│   └── Mumbai.csv
 │
-├── assets/ # Folder for images & GIFs for the README
-│ └── app_demo.gif
-│
-├── data/ # Folder for RAW, unprocessed data
-│ └── Mumbai.csv
-│
-└── notebooks/ # Folder for DEVELOPMENT and experimentation
-└── 01_Data_Cleaning_and_Modeling.ipynb
-##
+└──📁notebooks/                  # Folder for DEVELOPMENT and experimentation
+    └── 01_Data_Cleaning_and_Modeling.ipynb
+```
 ## 🚀 How to Run Locally
 
 To set up and run this project on your local machine, follow these steps:
