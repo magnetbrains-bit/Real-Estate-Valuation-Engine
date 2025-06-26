@@ -1,4 +1,4 @@
-# 🏙️ Mumbai Real Estate Valuation & Opportunity Engine
+# 🏙️ Mumbai Real Estate Valuation & Opportunity Engine 
 
  <!-- Optional: Replace with a screenshot of your app -->
 
@@ -87,6 +87,7 @@ To set up and run this project on your local machine, follow these steps:
     Your web browser should automatically open with the running application!
 
     ![image](https://github.com/user-attachments/assets/7e34a586-0dfc-41cf-8e1c-d6f4e55991ed)
+    App link - https://real-estate-valuation-engine-4y44jjkcnnawshgtnhsqyt.streamlit.app/
 
 
 ## 🔮 Future Improvements
